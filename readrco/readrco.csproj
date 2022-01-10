@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>res\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="res\add.png" />
+    <None Remove="res\minus.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="res\add.png" />
+    <Resource Include="res\minus.png" />
+  </ItemGroup>
+
+</Project>
